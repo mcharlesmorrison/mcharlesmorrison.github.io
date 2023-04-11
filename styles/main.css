@@ -3,7 +3,22 @@ html {
   }
   
   header {
-    text-align: center;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+  
+  .header-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
   nav ul {
@@ -11,7 +26,6 @@ html {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
   }
   
   nav li {
@@ -21,27 +35,24 @@ html {
   nav a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
   }
   
-  img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
+  nav a:hover {
+    text-decoration: underline;
   }
   
-  .external-links {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .external-links a {
-    text-decoration: none;
-    color: black;
-    margin: 0 10px;
+  main {
+    margin-top: 80px;
   }
   
   @media (max-width: 767px) {
+    .header-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
     nav ul {
       flex-direction: column;
       align-items: center;
@@ -51,4 +62,3 @@ html {
       margin: 10px 0;
     }
   }
-  
