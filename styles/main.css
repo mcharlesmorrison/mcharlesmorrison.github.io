@@ -43,6 +43,11 @@ html {
   main {
     margin-top: 80px;
   }
+
+  img {
+    max-width: 500px;
+    margin: auto;
+  }
   
   @media (max-width: 767px) {
     nav ul {
