@@ -3,22 +3,19 @@ html {
   }
   
   header {
-    background-color: #f1f1f1;
+    background-color: white;
     border-bottom: 1px solid #ccc;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 100;
-  }
-  
-  .header-container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 10px 20px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    padding: 20px;
+    text-align: center;
   }
   
   nav ul {
@@ -26,6 +23,7 @@ html {
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: center;
   }
   
   nav li {
@@ -47,12 +45,6 @@ html {
   }
   
   @media (max-width: 767px) {
-    .header-container {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-  
     nav ul {
       flex-direction: column;
       align-items: center;
