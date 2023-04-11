@@ -1,10 +1,10 @@
 html {
     font-family: 'Crimson Pro', serif;
   }
-
-header {
+  
+  header {
     background-color: white;
-    border-bottom: 1px solid #ccc;
+    height: 80px; /* change this value to adjust the height of the header */
     position: fixed;
     top: 0;
     left: 0;
@@ -17,67 +17,75 @@ header {
     padding: 20px;
     text-align: center;
   }
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-
-nav li {
-	margin: 0 10px;
-}
-
-main {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-img {
-    max-width: 500px;
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px; /* change this value to adjust the margin between the header and the image */
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
     margin: auto;
   }
-
-.external-links {
-	margin-top: 20px;
-	display: flex;
-	justify-content: center;
-}
-
-.external-links a {
-	margin: 0 10px;
-}
-
-/* Media queries */
-
-/* For screens smaller than 600px */
-@media (max-width: 600px) {
-	header {
-		font-size: 24px;
-	}
-
-	nav li {
-		margin: 0 5px;
-	}
-}
-
-/* For screens between 600px and 900px */
-@media (min-width: 600px) and (max-width: 900px) {
-	header {
-		font-size: 36px;
-	}
-
-	nav li {
-		margin: 0 10px;
-	}
-}
-
-/* For screens larger than 900px */
-@media (min-width: 900px) {
-	header {
-		font-size: 48px;
-	}
-}
+  
+  .external-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* add this line to center the external links horizontally */
+  }
+  
+  .external-links a {
+    margin: 0 10px;
+    text-decoration: none; /* add this line to remove the underline from the links */
+    color: black; /* add this line to change the color of the links */
+  }
+  
+  /* Media queries */
+  
+  /* For screens smaller than 600px */
+  @media (max-width: 600px) {
+    header {
+      font-size: 24px;
+      height: 60px; /* change this value to adjust the height of the header for small screens */
+    }
+  
+    nav li {
+      margin: 0 5px;
+    }
+  }
+  
+  /* For screens between 600px and 900px */
+  @media (min-width: 600px) and (max-width: 900px) {
+    header {
+      font-size: 36px;
+    }
+  
+    nav li {
+      margin: 0 10px;
+    }
+  }
+  
+  /* For screens larger than 900px */
+  @media (min-width: 900px) {
+    header {
+      font-size: 48px;
+      height: 100px; /* change this value to adjust the height of the header for large screens */
+    }
+  }
+  
