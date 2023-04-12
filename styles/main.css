@@ -34,7 +34,7 @@ html {
   }
 
   .header-link {
-    font-size: 18px; /* change this value to adjust the size of the header links */
+    font-size: 24px; /* change this value to adjust the size of the header links */
     text-decoration: none; /* add this line to remove the underline from the links */
     color: black; /* add this line to change the color of the links */
     }
@@ -51,15 +51,16 @@ html {
   }
   
   img {
+    /*
     max-width: 50%;
     display: block;
     margin: auto;
-    /*
-    width: 200px;
+    */
+    width: 600px;
     height: auto;
     display: block;
     margin: auto;
-    /*
+
   }
   
   .external-links {
