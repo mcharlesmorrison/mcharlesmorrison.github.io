@@ -35,7 +35,7 @@ html {
 
   .header-link {
     font-size: 24px; /* change this value to adjust the size of the header links */
-    font-weight: lighter; /* add this line to make the font weight bold */
+    font-weight: 300; /* add this line to make the font weight bold */
     text-decoration: none; /* add this line to remove the underline from the links */
     color: black; /* add this line to change the color of the links */
     }
@@ -133,6 +133,7 @@ html {
   }
   
   h2 {
+    text-align: left;
     font-weight: bold;
     color: black;
     margin-bottom: 10px;
