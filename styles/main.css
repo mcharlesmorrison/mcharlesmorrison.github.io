@@ -1,166 +1,165 @@
 html {
-    font-family: 'Lato', sans-serif;
-  }
-  
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  background-color: white;
+  height: 80px; /* change this value to adjust the height of the header */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px; /* update this line to decrease the top and bottom padding */
+  text-align: center;
+}
+
+.header-title {
+  font-size: 42px; /* change this value to adjust the size of the header title */
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: white; /* add this line to make the background of the links white */
+
+}
+
+.header-link {
+  font-size: 24px; /* change this value to adjust the size of the header links */
+  font-weight: 100; /* add this line to change font weight */
+  text-decoration: none; /* add this line to remove the underline from the links */
+  color: black; /* add this line to change the color of the links */
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px; /* add this line to adjust the padding on the top of the main section */
+  margin-top: 100px; /* change this value to adjust the margin between the header and the image */
+}
+
+img {
+  /*
+  max-width: 50%;
+  display: block;
+  margin: auto;
+   */
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: auto;
+
+}
+
+.external-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* add this line to center the external links horizontally */
+}
+
+.external-links a {
+  margin: 0 10px;
+  text-decoration: none; /* add this line to remove the underline from the links */
+  color: black; /* add this line to change the color of the links */
+}
+
+/* Media queries */
+
+/* For screens smaller than 600px */
+@media (max-width: 600px) {
   header {
-    background-color: white;
-    height: 80px; /* change this value to adjust the height of the header */
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 20px; /* update this line to decrease the top and bottom padding */
-    text-align: center;
+    font-size: 24px;
+    height: 60px; /* change this value to adjust the height of the header for small screens */
   }
 
-  .header-title {
-    font-size: 42px; /* change this value to adjust the size of the header title */
-    margin: 0;
+  nav li {
+    margin: 0 5px;
   }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    background-color: white; /* add this line to make the background of the links white */
+}
 
+/* For screens between 600px and 900px */
+@media (min-width: 600px) and (max-width: 900px) {
+  header {
+    font-size: 36px;
   }
-
-  .header-link {
-    font-size: 24px; /* change this value to adjust the size of the header links */
-    font-weight: 100; /* add this line to change font weight */
-    text-decoration: none; /* add this line to remove the underline from the links */
-    color: black; /* add this line to change the color of the links */
-    }
 
   nav li {
     margin: 0 10px;
   }
-  
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50px; /* add this line to adjust the padding on the top of the main section */
-    margin-top: 100px; /* change this value to adjust the margin between the header and the image */
-  }
-  
-  img {
-    /*
-    max-width: 50%;
-    display: block;
-    margin: auto;
-    */
-    width: 400px;
-    height: auto;
-    display: block;
-    margin: auto;
+}
 
+/* For screens larger than 900px */
+@media (min-width: 900px) {
+  header {
+    font-size: 48px;
+    height: 100px; /* change this value to adjust the height of the header for large screens */
   }
-  
-  .external-links {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center; /* add this line to center the external links horizontally */
-  }
-  
-  .external-links a {
-    margin: 0 10px;
-    text-decoration: none; /* add this line to remove the underline from the links */
-    color: black; /* add this line to change the color of the links */
-  }
-  
-  /* Media queries */
-  
-  /* For screens smaller than 600px */
-  @media (max-width: 600px) {
-    header {
-      font-size: 24px;
-      height: 60px; /* change this value to adjust the height of the header for small screens */
-    }
-  
-    nav li {
-      margin: 0 5px;
-    }
-  }
-  
-  /* For screens between 600px and 900px */
-  @media (min-width: 600px) and (max-width: 900px) {
-    header {
-      font-size: 36px;
-    }
-  
-    nav li {
-      margin: 0 10px;
-    }
-  }
-  
-  /* For screens larger than 900px */
-  @media (min-width: 900px) {
-    header {
-      font-size: 48px;
-      height: 100px; /* change this value to adjust the height of the header for large screens */
-    }
-  }
+}
 
-  /* WRITING PAGE */
+/* WRITING PAGE */
 
-  .columns-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
-  
-  .column-left,
-  .column-right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex: 1;
-    padding: 20px;
-  }
-  
-  .column-left {
-    border-right: 1px solid black;
-  }
-  
-  h2 {
-    font-weight: bold;
-    color: black;
-    margin-bottom: 10px;
-    text-align: left;
-  }
-  
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  li {
-    margin-bottom: 10px;
-  }
-  
-  a {
-    color: black;
-    text-decoration: none;
-  }
- /*
-  #essay pre {
-    font-family: Lato;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
-    width: 80%;
-    margin: 20px 0;
-  }
-*/
-  
+.columns-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.column-left,
+.column-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  padding: 20px;
+}
+
+.column-left {
+  border-right: 1px solid black;
+}
+
+h2 {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+/*
+#essay pre {
+font-family: Lato;
+font-size: 16px;
+line-height: 1.5;
+color: #333;
+width: 80%;
+margin: 20px 0;
+}
+ */
