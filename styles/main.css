@@ -17,6 +17,11 @@ html {
     padding: 20px;
     text-align: center;
   }
+
+  .header-title {
+    font-size: 36px; /* change this value to adjust the size of the header title */
+    margin: 0;
+  }
   
   nav ul {
     list-style: none;
@@ -24,8 +29,16 @@ html {
     padding: 0;
     display: flex;
     justify-content: center;
+    background-color: white; /* add this line to make the background of the links white */
+
   }
-  
+
+  .header-link {
+    font-size: 18px; /* change this value to adjust the size of the header links */
+    text-decoration: none; /* add this line to remove the underline from the links */
+    color: black; /* add this line to change the color of the links */
+    }
+
   nav li {
     margin: 0 10px;
   }
