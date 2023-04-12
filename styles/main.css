@@ -51,16 +51,15 @@ html {
   }
   
   img {
-    /*
     max-width: 50%;
     display: block;
     margin: auto;
-    */
+    /*
     width: 200px;
     height: auto;
     display: block;
     margin: auto;
-    
+    /*
   }
   
   .external-links {
