@@ -35,7 +35,7 @@ html {
 
   .header-link {
     font-size: 24px; /* change this value to adjust the size of the header links */
-    font-weight: 300; /* add this line to change font weight */
+    font-weight: 100; /* add this line to change font weight */
     text-decoration: none; /* add this line to remove the underline from the links */
     color: black; /* add this line to change the color of the links */
     }
