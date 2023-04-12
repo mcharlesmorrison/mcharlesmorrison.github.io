@@ -50,6 +50,7 @@ main {
   align-items: center;
   padding-top: 50px; /* add this line to adjust the padding on the top of the main section */
   margin-top: 100px; /* change this value to adjust the margin between the header and the image */
+  width: 100%;
 }
 
 img {
@@ -130,6 +131,14 @@ img {
 
 .column-left {
   border-right: 1px solid black;
+}
+
+.essay {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  width: 68%;
 }
 
 h2 {
