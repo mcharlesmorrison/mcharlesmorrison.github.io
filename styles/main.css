@@ -1,5 +1,5 @@
 html {
-    font-family: 'Crimson Pro', serif;
+    font-family: 'Lato';
   }
   
   header {
@@ -19,7 +19,7 @@ html {
   }
 
   .header-title {
-    font-size: 36px; /* change this value to adjust the size of the header title */
+    font-size: 42px; /* change this value to adjust the size of the header title */
     margin: 0;
   }
   
