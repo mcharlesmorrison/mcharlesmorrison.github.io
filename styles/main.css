@@ -47,6 +47,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 100px; /* add this line to adjust the padding on the top of the main section */
     margin-top: 100px; /* change this value to adjust the margin between the header and the image */
   }
   
