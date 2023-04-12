@@ -14,7 +14,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 15px 20px; /* update this line to decrease the top and bottom padding */
     text-align: center;
   }
 
