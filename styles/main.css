@@ -162,6 +162,11 @@ a {
   color: black;
   text-decoration: none;
 }
+
+titleEssay {
+  margin-bottom: 0;
+  font-size: 33;
+}
 /*
 #essay pre {
 font-family: Lato;
