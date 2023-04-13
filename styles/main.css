@@ -137,13 +137,14 @@ img {
   display: flex;
   flex-direction: column;
   align-content: center;
+  text-align: justify;
   justify-content: space-between;
   width: 68%;
 }
 
 .essayTitle {
   margin-bottom: 0;
-  font-size: 36px;
+  font-size: 24px;
   font-weight: bold;
 }
 
