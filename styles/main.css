@@ -160,11 +160,7 @@ li {
 
 a {
   color: black;
-  text-decoration: underline;
-}
-
-h1 {
-  margin-bottom: 0;
+  text-decoration: none;
 }
 /*
 #essay pre {
