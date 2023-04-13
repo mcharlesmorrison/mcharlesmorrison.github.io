@@ -138,6 +138,7 @@ img {
   flex-direction: column;
   align-content: center;
   text-align: justify;
+  text-justify: inter-character;
   justify-content: space-between;
   width: 68%;
   line-height: 1.5;
