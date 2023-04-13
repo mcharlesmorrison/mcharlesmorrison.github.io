@@ -141,6 +141,12 @@ img {
   width: 68%;
 }
 
+.essayTitle {
+  margin-bottom: 0;
+  font-size: 36px;
+  font-weight: bold;
+}
+
 h2 {
   font-weight: bold;
   color: black;
@@ -163,11 +169,6 @@ a {
   text-decoration: none;
 }
 
-titleEssay {
-  margin-bottom: 0;
-  font-size: 36;
-  font-weight: bold; 
-}
 /*
 #essay pre {
 font-family: Lato;
