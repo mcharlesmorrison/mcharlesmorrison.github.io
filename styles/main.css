@@ -145,15 +145,18 @@ img {
 }
 
 .t-column-left {
+  display: flex;
   order: 1;
   margin-right: 20px;
 }
 
 .t-column-center {
+  display: flex;
   order: 2;
 }
 
 .t-column-right {
+  display: flex;
   order: 3;
   margin-left: 20px;
 }
