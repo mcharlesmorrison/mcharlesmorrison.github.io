@@ -133,6 +133,24 @@ img {
   border-right: 1px solid black;
 }
 
+/* TRIPS COLUMNS */
+.t-column {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.t-column-left {
+  order: 1;
+}
+
+.t-column-center {
+  order: 2;
+}
+
+.t-column-right {
+  order: 3;
+}
 .essay {
   display: flex;
   flex-direction: column;
