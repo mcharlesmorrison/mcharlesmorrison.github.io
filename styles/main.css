@@ -67,19 +67,19 @@ img {
 }
 
 .img + .img {
-  margin-top: 50px; /* Adjust the value to your preference */
+  margin-top: 20px; /* Adjust the value to your preference */
 }
 
 .img + .tripReport figure {
-  margin-top: 50px; /* Adjust the value to your preference */
+  margin-top: 20px; /* Adjust the value to your preference */
 }
 
 .tripReport figure + .img {
-  margin-top: 50px; /* Adjust the value to your preference */
+  margin-top: 20px; /* Adjust the value to your preference */
 }
 
 .tripReport figure + .tripReport figure {
-  margin-top: 50px; /* Adjust the value to your preference */
+  margin-top: 20px; /* Adjust the value to your preference */
 }
 
 .external-links {
