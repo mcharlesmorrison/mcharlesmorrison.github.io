@@ -66,6 +66,10 @@ img {
 
 }
 
+.img + .img {
+  margin-top: 20px; /* Adjust the value to your preference */
+}
+
 /* image stuff only applied to trip reports */
 .tripReport img {
   width: 65%
