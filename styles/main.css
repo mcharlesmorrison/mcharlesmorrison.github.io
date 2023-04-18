@@ -70,6 +70,14 @@ img {
   margin-top: 20px; /* Adjust the value to your preference */
 }
 
+.img + .tripReport figure {
+  margin-top: 20px; /* Adjust the value to your preference */
+}
+
+.tripReport figure + .img {
+  margin-top: 20px; /* Adjust the value to your preference */
+}
+
 .external-links {
   margin-top: 20px;
   display: flex;
@@ -236,7 +244,8 @@ a {
 
 .tripReport figcaption {
   font-style: italic;
-  text-align: left;
+  text-align: center;
+  margin-left: 0;
 }
 /* image stuff only applied to trip reports */
 .tripReport img {
