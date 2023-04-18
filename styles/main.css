@@ -66,6 +66,19 @@ img {
 
 }
 
+/* image stuff only applied to trip reports */
+.tripReport img {
+  /*
+  max-width: 50%;
+  display: block;
+  margin: auto;
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: auto;
+  */
+}
+
 .external-links {
   margin-top: 20px;
   display: flex;
