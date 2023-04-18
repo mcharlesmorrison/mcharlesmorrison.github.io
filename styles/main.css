@@ -72,7 +72,7 @@ img {
 
 /* image stuff only applied to trip reports */
 .tripReport img {
-  width: 65%
+  width: 68%
 }
 
 .external-links {
@@ -188,7 +188,6 @@ img {
 }
 
 .tripTitle {
-  text-align: center;
   margin-bottom: 0;
   font-size: 24px;
   font-weight: bold;
