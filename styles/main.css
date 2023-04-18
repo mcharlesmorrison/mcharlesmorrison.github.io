@@ -161,6 +161,30 @@ img {
   margin-left: 20px;
 }
 
+.tripReport {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: justify;
+  text-justify: inter-character;
+  justify-content: space-between;
+  width: 68%;
+  line-height: 1.5;
+}
+
+.tripReport p {
+  text-align: justify;
+  text-justify: inter-character;
+  line-height: 1.5;
+}
+
+.tripTitle {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .essay {
   display: flex;
   flex-direction: column;
