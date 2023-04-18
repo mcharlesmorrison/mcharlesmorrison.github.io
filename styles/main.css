@@ -78,6 +78,10 @@ img {
   margin-top: 20px; /* Adjust the value to your preference */
 }
 
+.tripReport figure + .tripReport figure {
+  margin-top: 20px; /* Adjust the value to your preference */
+}
+
 .external-links {
   margin-top: 20px;
   display: flex;
