@@ -121,7 +121,7 @@ img {
   }
 }
 
-/* WRITING PAGE */
+/* WRITING LANDING PAGE */
 
 .columns-container {
   display: flex;
@@ -143,56 +143,7 @@ img {
   border-right: 1px solid black;
 }
 
-/* TRIPS COLUMNS */
-
-.t-column {
-  flex: 1;
-  padding: 10px;
-  align-items: center;
-  box-sizing: border-box;
-  flex-direction: column
-}
-
-.t-column-left {
-  display: flex;
-  order: 1;
-  margin-right: 20px;
-}
-
-.t-column-center {
-  display: flex;
-  order: 2;
-}
-
-.t-column-right {
-  display: flex;
-  order: 3;
-  margin-left: 20px;
-}
-
-.tripReport {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  text-align: justify;
-  text-justify: inter-character;
-  justify-content: space-between;
-  width: 68%;
-  line-height: 1.5;
-}
-
-.tripReport p {
-  text-align: justify;
-  text-justify: inter-character;
-  line-height: 1.5;
-}
-
-.tripTitle {
-  margin-bottom: 0;
-  font-size: 24px;
-  font-weight: bold;
-}
-
+/* ESSAY  /  STORY PAGE */
 .essay {
   display: flex;
   flex-direction: column;
@@ -242,3 +193,65 @@ width: 80%;
 margin: 20px 0;
 }
  */
+
+/* TRIPS LANDING PAGE */
+
+.t-column {
+  flex: 1;
+  padding: 10px;
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: column
+}
+
+.t-column-left {
+  display: flex;
+  order: 1;
+  margin-right: 20px;
+}
+
+.t-column-center {
+  display: flex;
+  order: 2;
+}
+
+.t-column-right {
+  display: flex;
+  order: 3;
+  margin-left: 20px;
+}
+
+/* TRIP REPORT */
+
+.tripReport {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: justify;
+  text-justify: inter-character;
+  justify-content: space-between;
+  width: 68%;
+  line-height: 1.5;
+}
+
+.tripReport figure {
+  margin: 0;
+}
+
+.tripReport figcaption {
+  font-style: italic;
+  text-align: left;
+}
+
+.tripReport p {
+  text-align: justify;
+  text-justify: inter-character;
+  line-height: 1.5;
+}
+
+.tripTitle {
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
