@@ -1,10 +1,20 @@
-from PIL import Image
 import os
+from PIL import Image
+def compress_images(directory=None, quality=85):
+    if directory is None:
+        directory = os.getcwd()
+    for filename in os.listdir(directory):
+        if filename.casefold().endswith(".jpg") or filename.casefold().endswith(".jpeg"):
+            filepath = os.path.join(directory, filename)
+            with Image.open(filepath) as im:
+                im.save(filepath, optimize=True, quality=quality)
+                # # Check if the file size decreased after compression
+                # if os.path.getsize(filepath) < os.path.getsize(filepath[:-4] + '_original.jpg'):
+                #     os.remove(filepath[:-4] + '_original.jpg')
+                #     return True
+                # else:
+                #     os.remove(filepath)
+                #     return False
+    return True # Return True if no images were found in the directory
 
-directory = "/Users/mattmorrison/Documents/repos/mcharlesmorrison.github.io/image/trt"
-
-for filename in os.listdir(directory):
-    if filename.endswith(".jpg"):
-        filepath = os.path.join(directory, filename)
-        with Image.open(filepath) as img:
-            img.save(filepath, optimize=True, quality=85)
+print(compress_images("/Users/mattmorrison/Documents/repos/mcharlesmorrison.github.io/image/trt"))
