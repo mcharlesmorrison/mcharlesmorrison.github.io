@@ -243,7 +243,8 @@ a {
 }
 
 .tripReport figure {
-  margin: 40;
+  margin: 0;
+  margin-bottom: 40;
 }
 
 .tripReport figcaption {
