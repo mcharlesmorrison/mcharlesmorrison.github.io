@@ -243,12 +243,12 @@ a {
 }
 
 .tripReport figure {
-  margin: 0;
+  margin: 40;
 }
 
 .tripReport figcaption {
   font-style: italic;
-  text-align: center;
+  text-align: left;
   margin-left: 0;
 }
 /* image stuff only applied to trip reports */
