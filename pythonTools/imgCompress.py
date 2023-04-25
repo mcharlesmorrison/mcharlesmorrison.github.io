@@ -17,4 +17,4 @@ def compress_images(directory=None, quality=50):
                 #     return False
     return True # Return True if no images were found in the directory
 
-print(compress_images("/Users/mattmorrison/Desktop/cottonwoods"))
+print(compress_images("/Users/mattmorrison/Desktop/polemonium"))
