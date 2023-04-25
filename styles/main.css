@@ -262,3 +262,13 @@ a {
   width: 100%
 }
 
+
+/* IFRAME SHITE */
+.video-container {
+  text-align: center;
+}
+
+.video-container iframe {
+  padding-top: 40;
+  display: inline-block;
+}
