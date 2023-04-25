@@ -269,6 +269,6 @@ a {
 }
 
 .video-container iframe {
-  padding-top: 40;
+  padding-top: 40px;
   display: inline-block;
 }
