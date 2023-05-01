@@ -200,9 +200,10 @@ a {
 .t-column {
   flex: 1;
   padding: 10px;
-  align-items: left;
+  align-items: center;
   box-sizing: border-box;
-  flex-direction: column
+  flex-direction: column;
+  text-align: left;
 }
 
 .t-column-left {
