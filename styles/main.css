@@ -272,3 +272,43 @@ a {
   padding-top: 40px;
   display: inline-block;
 }
+
+/* CREATION PAGES */
+
+.creation {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: justify;
+  text-justify: inter-character;
+  justify-content: space-between;
+  width: 68%;
+  line-height: 1.5;
+}
+
+.creation p {
+  text-align: justify;
+  text-justify: inter-character;
+  line-height: 1.5;
+}
+
+.creationTitle {
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.creation figure {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.creation figcaption {
+  font-style: italic;
+  text-align: left;
+  margin-left: 0;
+}
+/* image stuff only applied to trip reports */
+.creation img {
+  width: 100%
+}
