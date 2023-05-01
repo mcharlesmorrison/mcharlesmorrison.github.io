@@ -200,7 +200,7 @@ a {
 .t-column {
   flex: 1;
   padding: 10px;
-  align-items: center;
+  align-items: left;
   box-sizing: border-box;
   flex-direction: column
 }
@@ -308,7 +308,7 @@ a {
   text-align: left;
   margin-left: 0;
 }
-/* image stuff only applied to trip reports */
+/* image stuff only applied to creation pages */
 .creation img {
   width: 100%
 }
