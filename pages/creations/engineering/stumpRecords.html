@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matt Morrison</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1 class="header-title"><a href="/index.html">Matt Morrison</a></h1>
+      <nav>
+        <ul>
+          <li><a class="header-link" href="/pages/creations.html">creations</a></li>
+          <li><a class="header-link" href="/pages/trips.html">trips</a></li>
+          <li><a class="header-link" href="/pages/writing.html">writing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="creation">
+        <h1 class="creationTitle">Stump Records</h1>  
+
+        <p><em>Record player built into a Redwood stump with audio digitization</em></p>
+
+        <p>For my capstone design course I wanted to make something that I would keep. I had seen too many mech-e projects that get built out all semester only to be parted out when all was said and done. So after mulling over a few ideas, I decided to make a record player. Sounds pretty mundane, right? Well, I would build this record plater into a stump that I cut myself from the Santa Cruz mountains, and this record player would also digitize and save your records to mp3 files on your computer. Now it sounds a little more exciting. I owe my peers Sepehr and Albert a huge thanks for their contributions to the project, as well as a thanks to Jacob and Dennis from the Etcheverry machine shop, and Twiggy from Jacobs Hall.</p>
+
+        <p>While not a revolution in terms of innovation, the project did allow me to deploy a wide range of skills I had accrued over my time at Berkeley. It would involve CAD/CAM, CNC work on both metal and wood, manual mill and lathe operations, waterjetting, firmware and software development, motor control, audio signal processing, UI/UX considerations, and more. A video of the project is shown below, as well as many more project details and photos.</p>
+        
+        <figure>
+            <img src="/image/engineering/stump/img18.JPG" alt="Image 2">
+            <figcaption><em>The finished product</em></figcaption>
+        </figure>
+
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/PNWf7MtWN2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <p>I started by finding a nice downed Redwood tree on my buddy Aaron&rsquo;s property. He was kind enough to help out with the search, and loaned me his chainsaw for the day. I brought the stump down to the lab and used marine epoxy to fill most of the gaps. This involved creating a duct tape barrier around it and letting the epoxy seep through the stump for several days.</p>
+
+
+        <figure>
+            <img src="/image/engineering/stump/img1.jpg" alt="Image 2">
+            <figcaption><em>The stump</em></figcaption>
+        </figure>
+
+        <figure>
+          <img src="/image/engineering/stump/img2.jpg" alt="Image 2">
+          <figcaption><em>Taping it up for the epoxy treatment </em></figcaption>
+        </figure>
+
+        <p>In the meantime, I tested hole sizes for bearings, worked on CAD, and developed toolpaths for the Shopbot CNC I would be using to cut the stump. It was a real challenge to figure out how to datum a super organic workpiece, there were no flat surfaces, no 90 degree edges, and the piece didn&rsquo;t even fit in the Shopbot without some encouragement. Eventually, after weeks of work and dozens of hours on the Shopbot, I had the stump cut out to spec. It involved a lot of complicated jigging, some dowel placement in order to be able to flip the piece over and over, and templates taped on top of the work surface.</p>
+        
+        <figure>
+          <img src="/image/engineering/stump/img3.jpg" alt="Image 2">
+          <figcaption><em>Testing some hole sizes for bearings...</em></figcaption>
+        </figure>     
+        
+        <figure>
+          <img src="/image/engineering/stump/img4.jpg" alt="Image 2">
+          <figcaption><em>Complicated jigging</em></figcaption>
+        </figure>    
+
+        <figure>
+          <img src="/image/engineering/stump/img66.jpeg" alt="Image 2">
+          <figcaption><em>Progress</em></figcaption>
+        </figure>     
+
+        <figure>
+          <img src="/image/engineering/stump/img5.jpg" alt="Image 2">
+          <figcaption><em>The finished top</em></figcaption>
+        </figure>    
+
+        <figure>
+          <img src="/image/engineering/stump/img6.jpg" alt="Image 2">
+          <figcaption><em>The finished bottom</em></figcaption>
+        </figure>
+
+        <p>During all this time, I worked on fabricating the subassemblies, like the tone arm (which included an auto-stop feature to stop the record at the end of the album), all the metal components for the top of the piece, and the electronics housings. Albert helped a ton with figuring out all of the motor control stuff, and we also were able to figure out digitization. We were able to save the audio data real time to a microSD card on our microcontroller, and then read that data over serial to the computer and convert it to MP3 files.</p>
+        
+        <figure>
+          <img src="/image/engineering/stump/img7.jpg" alt="Image 2">
+          <figcaption><em>Manual labor</em></figcaption>
+        </figure>    
+
+        <figure>
+          <img src="/image/engineering/stump/img8.jpg" alt="Image 2">
+          <figcaption><em>Mechatronic systems are always hard to debug...</em></figcaption>
+        </figure>    
+
+        <figure>
+          <img src="/image/engineering/stump/img9.jpg" alt="Image 2">
+          <figcaption><em>My life was constantly consumed by this project. Here is a typical day...</em></figcaption>
+        </figure>
+
+        <figure>
+          <img src="/image/engineering/stump/img10.jpeg" alt="Image 2">
+          <figcaption><em>A simple metal-to-metal contact triggers an ISR to tell the motor to stop</em></figcaption>
+        </figure>    
+
+        <figure>
+          <img src="/image/engineering/stump/img11.jpeg" alt="Image 2">
+          <figcaption><em>Inside the tone arm</em></figcaption>
+        </figure>    
+
+        <figure>
+          <img src="/image/engineering/stump/img12.jpg" alt="Image 2">
+          <figcaption><em>Some waterjet parts, I cut these on the Omax</em></figcaption>
+        </figure>
+
+        <figure>
+          <img src="/image/engineering/stump/img13.jpeg" alt="Image 2">
+          <figcaption><em>Lots and lots of polishing to be done...</em></figcaption>
+        </figure>    
+
+        <figure>
+          <img src="/image/engineering/stump/img14.jpg" alt="Image 2">
+          <figcaption><em>...but it was worth it</em></figcaption>
+        </figure>    
+
+        <figure>
+          <img src="/image/engineering/stump/img15.jpg" alt="Image 2">
+          <figcaption><em>Looks pretty slick</em></figcaption>
+        </figure>
+
+        <figure>
+          <img src="/image/engineering/stump/img16.jpg" alt="Image 2">
+          <figcaption><em>I designed the plate after the "Order of the White Lotus" insignia</em></figcaption>
+        </figure>    
+
+        <p>Eventually, it came time to assemble everything. I installed bearings, treated the wood with some stain and paste wax, installed all the subassemblies, and worked out various kinks. I housed all the electronics under the stump on a clear sheet of acrylic so that interested users could peer &ldquo;under the hood.&rdquo; It took about four months to go from concept to finished product, and I never want to make another record player again. </p>
+        
+        <figure>
+          <img src="/image/engineering/stump/img17.jpg" alt="Image 2">
+          <figcaption><em>Under the hood</em></figcaption>
+        </figure>
+
+        <figure>
+          <img src="/image/engineering/stump/img18.JPG" alt="Image 2">
+          <figcaption><em>It lives!</em></figcaption>
+        </figure>    
+
+        <figure>
+          <img src="/image/engineering/stump/img19.jpg" alt="Image 2">
+          <figcaption><em>Sme more glamor shots</em></figcaption>
+        </figure>
+
+        <figure>
+          <img src="/image/engineering/stump/img20.JPG" alt="Image 2">
+          <figcaption><em>One more...</em></figcaption>
+        </figure>   
+
+        </div>
+    </main>
+  </body>
+</html>
