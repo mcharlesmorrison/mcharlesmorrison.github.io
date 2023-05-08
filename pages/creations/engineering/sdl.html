@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matt Morrison</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1 class="header-title"><a href="/index.html">Matt Morrison</a></h1>
+      <nav>
+        <ul>
+          <li><a class="header-link" href="/pages/creations.html">creations</a></li>
+          <li><a class="header-link" href="/pages/trips.html">trips</a></li>
+          <li><a class="header-link" href="/pages/writing.html">writing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="creation">
+        <h1 class="creationTitle">Specialized Data Logger</h1>  
+
+        <p>One of my many projects at Specialized was building out the engineering team's internal data acquisition system. Due to IP and confidentiality, I can't share too many details about any one project, though I can give a brief overview of the SBC Data Logger, or SDL. Designing and building everything from scratch including the PCB , enclosure, firmware, data processing infrastructure and more was a huge lift. I have been incredibly fortunate to work with and learn from my colleagues and mentors Andrew LaNoue and Marcel Keyser on this and surrounding projects.</p>
+
+        <figure>
+            <img src="/image/engineering/sdl/IMG_4067.JPG" alt="Image 1">
+            <figcaption><em>The Specialized Data Logger</em></figcaption>
+        </figure>
+
+        <figure>
+            <img src="/image/engineering/sdl/IMG_4070.JPG" alt="Image 1">
+            <figcaption><em>The SDL in stealth black</em></figcaption>
+        </figure>
+
+        <p>The problems we needed to solve were many. We needed way to evaluate product and correlate subjective rider feedback with objective metrics. Commercial systems are expensive, hard to use, clunky, and impossible for non-engineers to use. We also needed a way to store important data and metadata in such a way as to be standardized and easily accessed.</p>
+                
+        <p>The solution was to build the SDL. The units were cheap and easily manufacturable, user friendly, and highly capable. I also created a suite of standardized sensors (potentiometers, accelerometers, gyroscopes, strain gauges, and more) and mounts for easy deployment to any bike. I developed a standardized calibration process for all the all the sensors, as well as for the 6 DoF IMU in each SDL. Each device was serialized, with calibration data stored in a database built and managed by me.</p>
+        
+        <figure>
+            <img src="/image/engineering/sdl/logger3.jpeg" alt="Image 1">
+            <figcaption><em>Dialing in the Sina Frei's bike</em></figcaption>
+        </figure>
+
+        <figure>
+            <img src="/image/engineering/sdl/logger1.jpeg" alt="Image 1">
+            <figcaption><em>Getting data from the last run</em></figcaption>
+        </figure>
+
+        <figure>
+            <img src="/image/engineering/sdl/logger2.jpeg" alt="Image 1">
+            <figcaption><em>Sleek potentiometer setup</em></figcaption>
+        </figure>
+
+        <p>With the system coming in at just over 200 grams, our Factory Race Team not only worked with us during training to dial in their suspension setups, but actually raced with the system. It is the first time I am aware of a racer running a telemetry system for a UCI cross country race.</p>
+        
+        <p>Beyond supporting our race teams, we use the system for engineering development. Being able to measure physical phenomenon, analyze them with quantitative techniques, and correlate those results with rider impressions allowed us to extensively evaluate our prototypes, our existing product, and competitor product. We are able to apply rigorous engineering analysis to drive design decisions that historically have been made on a more qualitative basis.</p>
+        
+        <figure>
+            <img src="/image/engineering/sdl/IMG_3968.jpg" alt="Image 1">
+            <figcaption><em>Various stages of SDL development</em></figcaption>
+        </figure>
+
+        <p>I deployed over 100 units across engineering groups and race teams. For a while, I was the one to build each logger, but I eventually created a detailed assembly protocol for the loggers and sensors which allowed us to leverage an offsite electronics lab for assembly. That was a fun learning experience as well. </p>
+
+
+        </div>
+    </main>
+  </body>
+</html>
