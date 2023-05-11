@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matt Morrison</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1 class="header-title"><a href="/index.html">Matt Morrison</a></h1>
+      <nav>
+        <ul>
+          <li><a class="header-link" href="/pages/creations.html">creations</a></li>
+          <li><a class="header-link" href="/pages/trips.html">trips</a></li>
+          <li><a class="header-link" href="/pages/writing.html">writing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="creation">
+        <h1 class="creationTitle">humanLearning</h1>  
+
+        <p><em>An iOS app for learning interesting stuff</em></p>
+
+        <p>I have been hearing far too much about <em>machine learning</em> these days. So I decided what we need is some good old fashion human learning. I built an app in Swift to facilitate the accrual of interesting information, hopefully sparking the user's interest to research topics further. The articles are short, 140 words or less, so that the user can use the app constructively in small amounts of time. The goal was that if someone reaches for her phone for a dopamine hit, she would consider opening humanLearning instead of Instagram, since the articles are approachable in terms of length.</p>
+
+        <figure>
+            <img src="/image/engineering/humanLearning/hl1.png" alt="Image 1">
+            <figcaption><em>Landing page, and an article page</em></figcaption>
+        </figure>
+
+        <p>The app uses Firebase for databasing needs (storing article titles, text, images, and web links, which will be described below). When the user hits save, the article is stored on the phone locally. When the user hits next, the next article is randomly generated.</p>
+
+<p>When the user hits see saved, the app will show all of his saved articles. From here the user can select on an article, which will take her to a slightly different version of the article page. Here the user can reread the article as well as hit the read more button which will redirect to a website on his native browser for a more in-depth writeup on the topic. The user can also remove the article from the saved list.</p>
+
+        </div>
+    </main>
+  </body>
+</html>
