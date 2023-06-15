@@ -1,6 +1,6 @@
 import os
 from PIL import Image
-def compress_images(directory=None, quality=65):
+def compress_images(directory=None, quality=75):
     if directory is None:
         directory = os.getcwd()
     for filename in os.listdir(directory):
@@ -17,4 +17,4 @@ def compress_images(directory=None, quality=65):
                 #     return False
     return True # Return True if no images were found in the directory
 
-print(compress_images("/Users/mattmorrison/Desktop/shr"))
+print(compress_images("/Users/mattmorrison/Desktop/SHRpt1"))
