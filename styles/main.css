@@ -196,17 +196,22 @@ a {
 }
 
 .widget-container {
-  margin-top: 10px;
+  margin-top: 50px;
   margin-right: 10px;
-  width: 30vw; /* Adjust the percentage value to set the width */
-  height: 10vh; /* Adjust the percentage value to set the height */
 }
 
 .footer-content {
   padding: 10px;
-  text-align: left;
   display: flex;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+.bmc-button {
+  /* Add your custom styles here */
+  font-size: 14px;
+  padding: 8px 16px;
 }
 
 /* TRIPS LANDING PAGE */
