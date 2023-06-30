@@ -130,6 +130,7 @@ img {
 
 /* WRITING LANDING PAGE */
 
+
 .columns-container {
   display: flex;
   flex-direction: row;
@@ -146,9 +147,6 @@ img {
   padding: 20px;
 }
 
-.column-left {
-  border-right: 1px solid black;
-}
 
 /* ESSAY AND STORY PAGE */
 .essay {
@@ -196,7 +194,7 @@ a {
 }
 
 .widget-container {
-  margin-top: 50px;
+  margin-top: 75px;
   margin-right: 10px;
 }
 
