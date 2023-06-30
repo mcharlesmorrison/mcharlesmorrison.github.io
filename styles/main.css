@@ -196,9 +196,17 @@ a {
 }
 
 .widget-container {
-  margin-top: 50px;
+  margin-top: 10px;
+  margin-right: 10px;
   width: 30vw; /* Adjust the percentage value to set the width */
   height: 10vh; /* Adjust the percentage value to set the height */
+}
+
+.footer-content {
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  align-items: center;
 }
 
 /* TRIPS LANDING PAGE */
