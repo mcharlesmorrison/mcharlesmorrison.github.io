@@ -195,6 +195,12 @@ a {
   text-decoration: underline;
 }
 
+.widget-container {
+  margin-top: 50px;
+  width: 30vw; /* Adjust the percentage value to set the width */
+  height: 10vh; /* Adjust the percentage value to set the height */
+}
+
 /* TRIPS LANDING PAGE */
 
 .t-column {
