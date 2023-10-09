@@ -4,7 +4,7 @@ html {
 
 header {
   background-color: white;
-  height: 80px; 
+  height: 70px; 
   position: fixed;
   top: 0;
   left: 0;
@@ -14,12 +14,14 @@ header {
   flex-direction: row; /* Change this from column to row */
   justify-content: space-between; /* Change this to push title left and navigation right */
   align-items: center;
-  padding: 15px 20px; 
+  padding: 0px 45px; 
   text-align: left; /* Change this to align the header title to the left */
+  border-bottom: 2px solid #ddd;
 }
 
+
 .header-title {
-  font-size: 42px; /* change this value to adjust the size of the header title */
+  font-size: 27px; 
   margin: 0;
 }
 
@@ -28,7 +30,7 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: flex-end; /* Ensure the links are pushed to the right end */
+  justify-content: flex-end; /* linsk right */
   align-items: center;
   background-color: white;
 }
