@@ -4,18 +4,18 @@ html {
 
 header {
   background-color: white;
-  height: 80px; /* change this value to adjust the height of the header */
+  height: 80px; 
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 100;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row; /* Change this from column to row */
+  justify-content: space-between; /* Change this to push title left and navigation right */
   align-items: center;
-  padding: 15px 20px; /* update this line to decrease the top and bottom padding */
-  text-align: center;
+  padding: 15px 20px; 
+  text-align: left; /* Change this to align the header title to the left */
 }
 
 .header-title {
@@ -28,10 +28,11 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
-  background-color: white; /* add this line to make the background of the links white */
-
+  justify-content: flex-end; /* Ensure the links are pushed to the right end */
+  align-items: center;
+  background-color: white;
 }
+
 
 .header-link {
   font-size: 24px; /* change this value to adjust the size of the header links */
