@@ -18,4 +18,4 @@ def compress_images(directory=None, quality=75):
                 #     return False
     return True # Return True if no images were found in the directory
 
-print(compress_images("sfPenn"))
+print(compress_images("eastYose"))
