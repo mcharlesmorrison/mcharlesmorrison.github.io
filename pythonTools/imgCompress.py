@@ -1,6 +1,6 @@
 import os
 from PIL import Image
-def compress_images(directory=None, quality=75):
+def compress_images(directory=None, quality=50):
     directory = "/Users/mattmorrison/Desktop/" + directory
     if directory is None:
         directory = os.getcwd()
@@ -18,4 +18,4 @@ def compress_images(directory=None, quality=75):
                 #     return False
     return True # Return True if no images were found in the directory
 
-print(compress_images("cathedral"))
+print(compress_images("Mt. Kaweah"))
