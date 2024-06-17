@@ -2,7 +2,7 @@ import os
 from PIL import Image
 
 
-def compress_images(directory=None, quality=50):
+def compress_images(directory=None, quality=70):
     directory = "/Users/mattmorrison/Desktop/" + directory
     if directory is None:
         directory = os.getcwd()
@@ -23,4 +23,4 @@ def compress_images(directory=None, quality=50):
     return True  # Return True if no images were found in the directory
 
 
-print(compress_images("jtree"))
+print(compress_images("redwall"))
