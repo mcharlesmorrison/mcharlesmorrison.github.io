@@ -23,4 +23,4 @@ def compress_images(directory=None, quality=70):
     return True  # Return True if no images were found in the directory
 
 
-print(compress_images("crag"))
+print(compress_images("starrking"))
