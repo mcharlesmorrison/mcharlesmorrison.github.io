@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matt Morrison</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1 class="header-title"><a href="/index.html">Matt Morrison</a></h1>
+      <nav>
+        <ul>
+          <li><a class="header-link" href="/pages/creations.html">creations</a></li>
+          <li><a class="header-link" href="/pages/trips.html">trips</a></li>
+          <li><a class="header-link" href="/pages/writing.html">writing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="creation">
+        <h1 class="creationTitle">IR Beacon</h1>  
+
+        <p><em>Position tracking beacon for outdoor applications</em></p>
+
+        <p>I had a project with a client that required the use of IR beacons as lap triggers. Finding a solid beacon with multiple IR leds to ensure a long sensing range and minimal false negatives in outdoor settings proved difficult. I found plenty of crappy ones on Amazon that wouldn&rsquo;t fit the bill. The few good ones I found were expensive and would involve splicing some wires into a connector that would work with my Cass Data Logger. So I decided to make my own. </p>
+
+        <figure>
+            <img src="/image/irBeacon/IMG_20240808_110246882.jpg" alt="Image 1">
+            <figcaption><em>The finished product</em></figcaption>
+        </figure>
+
+        <figure>
+            <img src="/image/irBeacon/Screenshot 2024-08-08 at 12.03.46 PM.png" alt="Image 1">
+            <figcaption><em>Cutaway of final CAD</em></figcaption>
+        </figure>
+
+        <p>After realizing IR communication protocol involves a 38 kHz oscillation to prevent random IR noise from giving you false positives, I realized it would not be as simple as &ldquo;turn on the LED.&rdquo; The NE555 timer solved my issue, allowing me to tune the output to be 38 kHz PWM with a 50% duty cycle just by spec&rsquo;ing a couple resistors and a capacitor. I powered the system with a 9V power supply using six AA batteries.</p>        
+        
+        <figure>
+            <img src="/image/irBeacon/Screenshot 2024-08-08 at 12.03.59 PM.png" alt="Image 1">
+            <figcaption><em>Super simple schematic</em></figcaption>
+        </figure>
+
+        <figure>
+            <img src="/image/irBeacon/IMG_20240808_104935870.jpg" alt="Image 1">
+            <figcaption><em>Protoboard prototype</em></figcaption>
+        </figure>
+
+
+        <p>I added a couple other features to the circuit, tested the system on a breadboard, then protoboard, and eventually made a PCB. I designed the board with all thru-hole components that I place myself so I can use the boards for other potential LED blinky applications. I designed an enclosure for the whole thing that allows me to mount the beacon to tripods, which is usually how I position them out in the field. In an outdoor setting, I get a repeatable sensing range of eighteen feet!</p>        
+
+        <figure>
+            <img src="/image/irBeacon/IMG_20240808_103309454.jpg" alt="Image 1">
+            <figcaption><em>Power supply</em></figcaption>
+        </figure>
+
+        <figure>
+            <img src="/image/irBeacon/IMG_20240808_103257691.jpg" alt="Image 1">
+            <figcaption><em>The first assembled PCB</em></figcaption>
+        </figure>
+
+        <p>The beacons are up and running. I&rsquo;m currently using them for simple lap triggers to filter segment data for some mountain bike testing I am working on. But now that I have these super cheap beacons, I can line twenty of them up in a short segment for super accurate position tracking to do more detailed analysis of ride segments or for validating physics models with in-field data.</p>
+        
+        <figure>
+            <img src="/image/irBeacon/IMG_20240808_104924902.jpg" alt="Image 1">
+            <figcaption><em>The beacons work with an IR receiver that connects to my Cass Data Logger</em></figcaption>
+        </figure>
+
+        <figure>
+            <img src="/image/irBeacon/IMG_20240808_110407638.jpg" alt="Image 1">
+            <figcaption><em>Beacon glamor shot</em></figcaption>
+        </figure>
+
+        </div>
+    </main>
+  </body>
+</html>

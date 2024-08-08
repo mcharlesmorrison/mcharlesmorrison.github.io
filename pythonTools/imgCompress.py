@@ -23,4 +23,9 @@ def compress_images(directory=None, quality=70):
     return True  # Return True if no images were found in the directory
 
 
-print(compress_images("starrking"))
+def main():
+    print(compress_images("irBeacon"))
+
+
+if __name__ == "__main__":
+    main()
