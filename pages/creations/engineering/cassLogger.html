@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matt Morrison</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1 class="header-title"><a href="/index.html">Matt Morrison</a></h1>
+      <nav>
+        <ul>
+          <li><a class="header-link" href="/pages/creations.html">creations</a></li>
+          <li><a class="header-link" href="/pages/trips.html">trips</a></li>
+          <li><a class="header-link" href="/pages/writing.html">writing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="creation">
+        <h1 class="creationTitle">Cass Logger</h1>  
+
+        <p><em>A general purpose data logger</em></p>
+
+        <p>The Cass Logger is a built-from-scratch data acquisition system that I made for my consulting company, Cass Labs. The goal of this project was to make a highly capable, highly customizable data logging system for engineering research and development. I mainly use it with clients in the bike industry, instrumenting road and mountain bikes (analog and electric) for in-field testing. I also use it as a general purpose logger for all my data acquisition needs. </p>
+        
+        <figure>
+            <img src="/image/cassLogger/loggerclosebike.jpg" alt="Image 1">
+            <figcaption><em>The Cass Logger on a bike</em></figcaption>
+        </figure>
+
+        <figure>
+            <img src="/image/cassLogger/loggerclose.jpg" alt="Image 1">
+            <figcaption><em>Another glamor shot=</em></figcaption>
+        </figure>
+
+        <p>The system is built around the Teensy 4.1. It has 18 channels (which can be configured to be analog, digital, I2C, SPI, and CAN), a built-in 9 DoF IMU, an RTC (for global time management even when the device is powered off, helpful for syncing with external devices like Garmins and GoPros), and an integrated charging circuit. I designed the PCB from the ground up and also programmed the firmware from scratch (in C++). The logger can hit sampling frequencies above 5 kHz with the IMU disabled, and 2 kHz with it enabled. I typically run 500 Hz to be mindful of data storage costs.</p>        
+
+        <figure>
+            <img src="/image/cassLogger/board.png" alt="Image 1">
+            <figcaption><em>The PCB</em></figcaption>
+        </figure>
+
+        <figure>
+            <img src="/image/cassLogger/bike.jpg" alt="Image 1">
+            <figcaption><em>Fully instrumented bike with logger, f/r potentiometers, f/r wheel speed, and feedback button</em></figcaption>
+        </figure>
+
+
+        <p>On top of the logger, I&rsquo;ve developed a suite of custom sensors (potentiometers, accelerometers, feedback buttons, infrared receivers, wheel speed sensors, quadrature encoders, and more) for various applications. The nice thing about the logger is I can design application-specific sensors super quickly that easily integrate with the system. </p>
+
+        <figure>
+            <img src="/image/cassLogger/shockpot.jpg" alt="Image 1">
+            <figcaption><em>Shock potentiometer close up</em></figcaption>
+        </figure>
+
+        <p>In terms of software, I&rsquo;ve developed a CLI for extremely fast data transfer and an extensive python library for data ingestion and analysis. I developed a database architecture leveraging MondoDB and Cloudflare R2 services in order to store field test datasets over time for long-term comparison and trend analysis. With this entire ecosystem, I have solved the perpetual issue plaguing the bike industry of field test data becoming obsolete after mere days of testing due to improper metadata and data documentation, storage, and formatting.</p>        
+        
+        <figure>
+            <img src="/image/cassLogger/cassDB.png" alt="Image 1">
+            <figcaption><em>The Cass Database schema. I use R2 now instead of S3, which is free and still uses Boto3.</em></figcaption>
+        </figure>
+
+        </div>
+    </main>
+  </body>
+</html>
