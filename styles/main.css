@@ -11,11 +11,11 @@ header {
   right: 0;
   z-index: 100;
   display: flex;
-  flex-direction: row; /* Change this from column to row */
-  justify-content: space-between; /* Change this to push title left and navigation right */
+  flex-direction: row; 
+  justify-content: space-between; 
   align-items: center;
   padding: 0px 45px; 
-  text-align: left; /* Change this to align the header title to the left */
+  text-align: left;
   border-bottom: 2px solid #ddd;
 }
 
@@ -30,17 +30,17 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: flex-end; /* linsk right */
+  justify-content: flex-end;
   align-items: center;
   background-color: white;
 }
 
 
 .header-link {
-  font-size: 24px; /* change this value to adjust the size of the header links */
-  font-weight: 100; /* add this line to change font weight */
-  text-decoration: none; /* add this line to remove the underline from the links */
-  color: black; /* add this line to change the color of the links */
+  font-size: 24px; /* adjust the size of the header links */
+  font-weight: 100; /* change font weight */
+  text-decoration: none; /* remove the underline from the links */
+  color: black; /* change the color of the links */
 }
 
 nav li {
@@ -51,17 +51,12 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 50px; /* add this line to adjust the padding on the top of the main section */
-  margin-top: 100px; /* change this value to adjust the margin between the header and the image */
+  padding-top: 50px;
+  margin-top: 100px;
   width: 100%;
 }
 
 img {
-  /*
-  max-width: 50%;
-  display: block;
-  margin: auto;
-   */
   width: 400px;
   height: auto;
   display: block;
@@ -70,32 +65,32 @@ img {
 }
 
 .img + .img {
-  margin-top: 50px; /* Adjust the value to your preference */
+  margin-top: 50px;
 }
 
 .img + .tripReport figure {
-  margin-top: 50px; /* Adjust the value to your preference */
+  margin-top: 50px;
 }
 
 .tripReport figure + .img {
-  margin-top: 50px; /* Adjust the value to your preference */
+  margin-top: 50px;
 }
 
 .tripReport figure + .tripReport figure {
-  margin-top: 50px; /* Adjust the value to your preference */
+  margin-top: 50px; 
 }
 
 .external-links {
   margin-top: 20px;
   display: flex;
   justify-content: center;
-  align-items: center; /* add this line to center the external links horizontally */
+  align-items: center;
 }
 
 .external-links a {
   margin: 0 10px;
-  text-decoration: none; /* add this line to remove the underline from the links */
-  color: black; /* add this line to change the color of the links */
+  text-decoration: none; 
+  color: black; 
 }
 
 /* Media queries */
@@ -104,7 +99,7 @@ img {
 @media (max-width: 600px) {
   header {
     font-size: 24px;
-    height: 60px; /* change this value to adjust the height of the header for small screens */
+    height: 60px;
   }
 
   nav li {
@@ -268,7 +263,7 @@ a {
   text-align: justify;
   text-justify: inter-character;
   justify-content: space-between;
-  width: 68%;
+  width: 50%;
   line-height: 1.5;
 }
 
@@ -320,7 +315,7 @@ a {
   text-align: justify;
   text-justify: inter-character;
   justify-content: space-between;
-  width: 68%;
+  width: 50%;
   line-height: 1.5;
 }
 
