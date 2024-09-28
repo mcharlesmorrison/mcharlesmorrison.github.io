@@ -345,3 +345,13 @@ a {
 .creation img {
   width: 100%
 }
+
+/* Notes section */
+.notes-section {
+  text-align: left;
+}
+
+.notes-section p {
+  text-align: left;
+  text-justify: none;
+}
