@@ -355,3 +355,9 @@ a {
   text-align: left;
   text-justify: none;
 }
+
+/* New styles for notes section links */
+.notes-section a {
+  color: blue;
+  text-decoration: underline;
+}
