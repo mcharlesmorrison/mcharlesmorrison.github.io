@@ -408,10 +408,10 @@ a {
 
 /* Scroll margin for anchor links */
 [id] {
-  scroll-margin-top: 100px; /* Adjust this value as needed */
+  scroll-margin-top: 150px; /* Adjust this value as needed */
 }
 
 /* If you want to target only specific elements (like footnotes) */
 [id^="note-"] {
-  scroll-margin-top: 100px;
+  scroll-margin-top: 150px;
 }
