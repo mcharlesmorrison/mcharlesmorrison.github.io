@@ -431,3 +431,9 @@ a {
 [id^="note-"] {
   scroll-margin-top: 150px;
 }
+
+/* Add this new rule to your CSS file */
+.essay a[href^="#ref-"] {
+  color: blue;
+  text-decoration: underline;
+}
