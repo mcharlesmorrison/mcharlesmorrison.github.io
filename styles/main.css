@@ -13,6 +13,7 @@ html {
   .header-title {
     margin-bottom: 20px;
     width: 100%;
+    text-align: center;
   }
 
   nav {
@@ -24,6 +25,7 @@ html {
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding: 0;
   }
 
   nav li {
@@ -33,8 +35,8 @@ html {
   }
 
   .header-link {
-    display: block;
-    width: 100%;
+    display: inline-block;
+    width: auto;
   }
 }
 
