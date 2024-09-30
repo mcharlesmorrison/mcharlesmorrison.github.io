@@ -262,6 +262,12 @@ ul {
   padding: 0;
 }
 
+.bullet-list {
+  list-style-type: disc; /* or any other type of bullet, like circle or square */
+  margin-left: 20px; /* Optional: adds space to the left for indentation */
+  padding-left: 20px; /* Optional: adjusts inner space */
+}
+
 li {
   margin-bottom: 10px;
 }
