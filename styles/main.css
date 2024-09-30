@@ -187,21 +187,22 @@ img {
     margin: 0 auto;
   }
 
-  .column-left,
-  .column-right,
   .t-column {
     width: 100%;
     padding: 10px 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 
-  .column-left h2,
-  .column-right h2,
   .t-column h2 {
     text-align: left;
     margin-left: 0;
   }
 
-  .column-right,
+  .t-column ul {
+    padding-left: 0;
+  }
+
   .t-column-center,
   .t-column-right {
     margin-top: 20px;
@@ -211,8 +212,6 @@ img {
   .t-column-center,
   .t-column-right {
     order: initial;
-    margin-left: 0;
-    margin-right: 0;
   }
 }
 
