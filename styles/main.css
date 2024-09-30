@@ -453,7 +453,9 @@ a {
 
 /* Add this new media query for mobile devices */
 @media screen and (max-width: 768px) {
-  .essay {
+  .essay,
+  .tripReport,
+  .creation {
     width: 85%;
   }
 }
