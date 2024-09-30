@@ -14,6 +14,7 @@ html {
     margin-bottom: 20px;
     width: 100%;
     text-align: center;
+    font-size: 24px;
   }
 
   nav {
@@ -30,7 +31,7 @@ html {
   }
 
   nav li {
-    margin: 10px 10px;
+    margin: 5px 10px;
     width: auto;
     text-align: center;
   }
@@ -38,12 +39,43 @@ html {
   .header-link {
     display: inline-block;
     width: auto;
+    font-size: 18px;
   }
 }
 
+
+/* Media queries */
+/* 
+@media (min-width: 769px) {
+  header {
+    height: 70px;
+    font-size: 36px;
+  }
+
+  .header-title {
+    font-size: 27px;
+  }
+
+  .header-link {
+    font-size: 24px;
+  }
+
+  nav li {
+    margin: 0 15px;
+  }
+}
+
+@media (min-width: 901px) {
+  header {
+    font-size: 48px;
+    height: 100px; 
+  }
+} 
+*/
+
+
 header {
   background-color: white;
-  height: 70px; 
   position: fixed;
   top: 0;
   left: 0;
@@ -132,38 +164,6 @@ img {
   color: black; 
 }
 
-/* Media queries */
-
-/* For screens smaller than 600px */
-@media (max-width: 600px) {
-  header {
-    font-size: 24px;
-    height: 60px;
-  }
-
-  nav li {
-    margin: 0 5px;
-  }
-}
-
-/* For screens between 600px and 900px */
-@media (min-width: 600px) and (max-width: 900px) {
-  header {
-    font-size: 36px;
-  }
-
-  nav li {
-    margin: 0 10px;
-  }
-}
-
-/* For screens larger than 900px */
-@media (min-width: 900px) {
-  header {
-    font-size: 48px;
-    height: 100px; /* change this value to adjust the height of the header for large screens */
-  }
-}
 
 /* WRITING LANDING PAGE */
 
