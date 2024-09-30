@@ -183,15 +183,36 @@ img {
 @media screen and (max-width: 768px) {
   .columns-container {
     flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
   }
 
   .column-left,
-  .column-right {
+  .column-right,
+  .t-column {
     width: 100%;
+    padding: 10px 0;
   }
 
-  .column-right {
+  .column-left h2,
+  .column-right h2,
+  .t-column h2 {
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .column-right,
+  .t-column-center,
+  .t-column-right {
     margin-top: 20px;
+  }
+
+  .t-column-left,
+  .t-column-center,
+  .t-column-right {
+    order: initial;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
