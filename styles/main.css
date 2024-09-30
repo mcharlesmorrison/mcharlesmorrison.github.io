@@ -163,7 +163,6 @@ img {
 
 /* WRITING LANDING PAGE */
 
-
 .columns-container {
   display: flex;
   flex-direction: row;
@@ -180,6 +179,21 @@ img {
   padding: 20px;
 }
 
+/* New media query for mobile devices */
+@media screen and (max-width: 768px) {
+  .columns-container {
+    flex-direction: column;
+  }
+
+  .column-left,
+  .column-right {
+    width: 100%;
+  }
+
+  .column-right {
+    margin-top: 20px;
+  }
+}
 
 /* ESSAY AND STORY PAGE */
 .essay {
@@ -435,4 +449,11 @@ a {
 .essay a[href^="#ref-"] {
   color: blue;
   text-decoration: underline;
+}
+
+/* Add this new media query for mobile devices */
+@media screen and (max-width: 768px) {
+  .essay {
+    width: 85%;
+  }
 }
