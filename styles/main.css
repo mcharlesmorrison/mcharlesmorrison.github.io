@@ -457,5 +457,13 @@ a {
   .tripReport,
   .creation {
     width: 85%;
+    text-align: left;
+  }
+
+  .essay p,
+  .tripReport p,
+  .creation p {
+    text-align: left;
+    text-justify: none;
   }
 }
