@@ -24,9 +24,7 @@ def compress_images(directory=None, quality=70):
 
 
 def main():
-    print(compress_images("tenaya"))
-    print(compress_images("florence"))
-    print(compress_images("warrenNorth"))
+    print(compress_images("yew"))
 
 
 if __name__ == "__main__":
