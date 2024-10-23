@@ -24,7 +24,7 @@ def compress_images(directory=None, quality=70):
 
 
 def main():
-    print(compress_images("yew"))
+    print(compress_images("conness"))
 
 
 if __name__ == "__main__":
