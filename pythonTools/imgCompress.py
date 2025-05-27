@@ -40,7 +40,7 @@ def compress_images(directory=None, quality=60):
 
 
 def main():
-    print(compress_images("lastchance"))
+    print(compress_images("bart_fkt"))
 
 
 if __name__ == "__main__":
