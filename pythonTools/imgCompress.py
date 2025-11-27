@@ -2,7 +2,7 @@ import os
 from PIL import Image
 
 
-def compress_images(directory=None, quality=60):
+def compress_images(directory=None, quality=50):
     directory = "/Users/mattmorrison/Desktop/" + directory
     if directory is None:
         directory = os.getcwd()
@@ -40,7 +40,7 @@ def compress_images(directory=None, quality=60):
 
 
 def main():
-    print(compress_images("bart_fkt"))
+    print(compress_images("drive-download-20250731T230737Z-1-001"))
 
 
 if __name__ == "__main__":
