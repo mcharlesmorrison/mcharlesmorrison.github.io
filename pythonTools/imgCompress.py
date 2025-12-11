@@ -40,7 +40,7 @@ def compress_images(directory=None, quality=50):
 
 
 def main():
-    print(compress_images("drive-download-20250731T230737Z-1-001"))
+    print(compress_images("ssierra_2"))
 
 
 if __name__ == "__main__":
