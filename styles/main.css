@@ -474,6 +474,20 @@ a {
   text-decoration: underline;
 }
 
+/* FOOTER */
+footer {
+  margin-top: 80px;
+  padding: 40px 0 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  color: #999;
+  font-size: 14px;
+  font-weight: 300;
+}
+
 /* Add this new media query for mobile devices */
 @media screen and (max-width: 768px) {
   .essay,
