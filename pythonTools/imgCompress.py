@@ -40,7 +40,7 @@ def compress_images(directory=None, quality=50):
 
 
 def main():
-    print(compress_images("sdtct"))
+    print(compress_images("homer"))
 
 
 if __name__ == "__main__":
